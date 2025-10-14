@@ -1,0 +1,97 @@
+# Spark Streaming Checkpoints
+checkpoints/
+*.crc
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+*.iml
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Spark Metadata
+_spark_metadata/
+_SUCCESS
+
+# Exclude excessive output CSVs (keep only sample files)
+# outputs/ directory structure is kept but most files ignored
+outputs/**/*.csv
+!outputs/task_1/sample*.csv
+!outputs/task_2/batch_0/*.csv
+!outputs/task_2/batch_1/*.csv
+!outputs/task_3/sample*.csv
+
+# Python cache
+*.pyc
