@@ -88,7 +88,7 @@ _SUCCESS
 # Exclude excessive output CSVs (keep only sample files)
 # outputs/ directory structure is kept but most files ignored
 outputs/**/*.csv
-!outputs/task_1/sample*.csv
+!outputs/task_1/part-*.csv
 !outputs/task_2/batch_0/*.csv
 !outputs/task_2/batch_1/*.csv
 !outputs/task_3/sample*.csv
